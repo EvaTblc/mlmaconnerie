@@ -1,5 +1,17 @@
-
+body {
+  background-image: url("background.jpg");
+}
 
 a {
   text-decoration: none;
 }
+
+@font-face {font-family: "Goudy";
+            src: url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.eot");
+            src: url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.eot?#iefix")
+            format("embedded-opentype"),
+            url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.woff2")
+            format("woff2"), url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.woff")
+            format("woff"), url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.ttf")
+            format("truetype"), url("//db.onlinewebfonts.com/t/e773323a8652e6e6d1a4d55512eeac7e.svg#Goudy")
+            format("svg"); }

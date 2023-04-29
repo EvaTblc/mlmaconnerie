@@ -4,9 +4,11 @@
   justify-content: space-between;
   align-items: center;
   background: $mid-black;
+  box-shadow: 1px 1px 3px $light-black;
   overflow: hidden;
   position: relative;
   z-index: 1;
+
   .logo {
     width: 130px;
     height: 60px;
