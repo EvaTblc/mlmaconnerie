@@ -1,12 +1,15 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@700&family=Roboto:wght@100;300&display=swap');
 
 // Define fonts for body and headers
 $body-font: "Work Sans", "Helvetica", "sans-serif";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
 
-$h1: 'Rozha One', serif;
+$main: 'PT Serif', serif;
+$bolder: 'Brygada 1918', serif;
+$subtitle: 'Roboto', sans-serif;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {

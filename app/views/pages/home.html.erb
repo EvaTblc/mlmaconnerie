@@ -1,3 +1,21 @@
-<div>
-  <h1>ML</h1> <br> <h1>Maçonnerie</h1>
+<div class="container">
+  <div class="main">
+    <div class="carousel">
+      <%= image_tag "2.jpg", class: "active", alt: "images1" %>
+      <%= image_tag "3.jpg", class: "next", alt: "images2" %>
+      <%= image_tag "4.jpg", class: "previous", alt: "images3" %>
+    </div>
+
+    <div class="header">
+      <h1 class="ml">ML</h1>
+      <h2>Maçonnerie</h2>
+      <p class="subtitle">Neuf & Rénovations</p>
+    </div>
+  </div>
+  <div class="linkshome">
+    <strong><%= link_to "Nos Compétences", root_path, class:"btnhome" %></strong>
+    <strong><%= link_to "Nos Réalisations", root_path, class:"btnhome" %></strong>
+    <strong><%= link_to "Notre Equipe", root_path, class:"btnhome" %></strong>
+    <strong><%= link_to "Avis Clients", root_path, class:"btnhome" %></strong>
+  </div>
 </div>
