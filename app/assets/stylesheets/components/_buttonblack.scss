@@ -1,0 +1,18 @@
+.linksblack {
+  display: flex;
+  justify-content: space-between;
+
+  .btnblack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $yellow;
+    width: 190px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 50px;
+    background-color: $light-black;
+    border-radius: 10px;
+    box-shadow: 1px 2px $black;
+  }
+}

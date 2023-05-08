@@ -2,7 +2,12 @@ body {
   background-image: url("background.jpg");
 }
 
+.main-container {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 90px;
+}
+
 a {
   text-decoration: none;
 }
-

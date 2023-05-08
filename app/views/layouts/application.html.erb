@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ML Maconnerie</title>
+    <title>ML Maconnerie - Neuf & Rénovations</title>
+    <meta name="description" content="Découvrez les compétences et réalisations de ML Maçonnerie, spécialisée en neuf et rénovations. Notre équipe est à votre disposition pour tous vos projets de construction." />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -12,9 +13,11 @@
   </head>
 
   <body>
-    <%= render "shared/navbar" %>
-    <%= render "shared/flashes" %>
-    <%= yield %>
-    <%= render "shared/footer" %>
+    <div class="main-container">
+      <%= render "shared/navbar" %>
+      <%= render "shared/flashes" %>
+      <%= yield %>
+      <%= render "shared/footer" %>
+    </div>
   </body>
 </html>
