@@ -1,16 +1,13 @@
-<div class="container">
+<div class="home-container">
   <div class="main">
-    <div class="carousel">
-      <%= image_tag "2.jpg", class: "active", alt: "Maçonnerie d'extérieure - Extension et agrandissement d'une maison" %>
-      <%= image_tag "3.jpg", class: "next", alt: "Maçonnerie d'intérieure - Rénovation intérieure d'un mur en pierre" %>
-      <%= image_tag "4.jpg", class: "previous", alt: "Maçonnerie d'extérieure" %>
-    </div>
-
+    <%= image_tag "wallpaper.jpg", class:"wallpaper", alt:"collage de photos" %>
     <div class="header">
       <h1 class="ml">ML Maçonnerie</h1>
       <h2>Neuf & Rénovations</h2>
-      <p class="subtitle">Des services de qualité pour vos projets de maçonnerie neufs et de rénovation.</p>
     </div>
+  </div>
+  <div  class="subtitle">
+    <p>Des services de qualité pour vos projets de maçonnerie neufs et de rénovation.</p>
   </div>
   <div class="linksyellow">
     <strong><%= link_to "Nos Compétences", competences_path, class:"btnyellow" %></strong>
