@@ -1,5 +1,6 @@
 <nav class="navbar-mlmaconnerie">
   <%= image_tag "logo.jpg", alt:"logo", class:"logo" %>
+
   <div class="navbarcontainer">
     <div class="contactinfos">
       <div class="d-flex mt-4 me-4">
@@ -12,19 +13,16 @@
       </div>
     </div>
 
-    <div class="linksblack">
-      <strong><%= link_to "Contactez-nous", root_path, class:"btnblack" %></strong>
-      <strong><%= link_to "Accueil", root_path, class:"btnblack" %></strong>
-    </div>
-
     <div class="dropdown">
       <button class="dropbtn"><i class="fa-solid fa-bars fa-xl mt-3" style="color: #fbff00;"></i></i>
       </button>
       <div class="dropdown-content">
+        <a href="/#">Accueil</a>
         <a href="/competences">Nos Compétences</a>
         <a href="/realisations">Nos Réalisations</a>
-        <a href="#">Notre Equipe</a>
+        <a href="/equipes">Notre Equipe</a>
         <a href="#">Avis Clients</a>
+        <a href="#">Contactez-nous</a>
       </div>
     </div>
 
