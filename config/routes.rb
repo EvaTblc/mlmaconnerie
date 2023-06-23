@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :competences, only: [:index]
   resources :realisations, only: [:index]
   resources :equipes, only: [:index]
+  resources :reviews, only: [:index]
+  resources :contacts, only: [:index]
 end
